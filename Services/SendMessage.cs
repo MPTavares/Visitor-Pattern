@@ -13,12 +13,14 @@ namespace VisitorPattern.Services
         
         public void TreatmentClient(Client element)
         {
-            Console.WriteLine($"Send email to a  client email: {element.email}");
+            Console.WriteLine($"Sending email to a  client email: {element.email}");
+            
+
         }
 
         public void TreatmentEmployee(Employee element)
         {
-            Console.WriteLine($"Send SMS to a employee cell phone: {element.cellPhone}");
+            Console.WriteLine($"Sending SMS to a employee cell phone: {element.cellPhone}");
         }
       
     }
